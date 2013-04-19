@@ -34,7 +34,7 @@ def main():
     input_path = os.path.abspath(sys.argv[1])
     # Output file is created in the same directory as input file.
     dir_path = os.path.dirname(input_path)
-    output_path = os.path.join(dir_path, 'output.txt')
+    output_path = os.path.join(dir_path, 'output.srt')
     # The open mode must be 'rb', not 'r'.
     # Otherwise the Chinese charactor ':' will cause error while reading.
     input_file_object = open(input_path, 'rb')
