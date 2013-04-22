@@ -16,7 +16,9 @@ def convert_to_utf8(string):
     Convert strings to utf-8.
     Parameter:
         string: string type.
-    Return: None
+    Return:
+        type: string.
+        value: the type of encoding.
     '''
     encoding_type = ['gbk', 'utf-8', 'utf-16', 'big5', 'utf-32']
     for t in encoding_type:
