@@ -25,7 +25,7 @@ def convert_to_utf8(string):
             global _input_encoding_type
             _input_encoding_type = t
             break
-        except:
+        except UnicodeDecodeError:
             continue
     return utf8
 
