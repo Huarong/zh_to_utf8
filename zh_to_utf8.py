@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 '''
 This is a tool to convert any encoding format to 'utf-8'.
 How to use:
